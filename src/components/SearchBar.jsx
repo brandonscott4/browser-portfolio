@@ -1,8 +1,8 @@
 import { IconArrowLeft, IconArrowRight, IconReload } from "@tabler/icons-react";
 
-const SearchBar = ({ url }) => {
+const SearchBar = ({ url, setIsReloading }) => {
   const handleReloadClick = () => {
-    window.location.reload();
+    setIsReloading(true);
   };
 
   return (
@@ -28,5 +28,3 @@ const SearchBar = ({ url }) => {
 };
 
 export default SearchBar;
-
-//have the refresh button display an animated loading component for a short interval
