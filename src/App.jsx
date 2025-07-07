@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import SearchBar from "./components/SearchBar";
 import Reload from "./components/Reload";
+import About from "./About";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
           <Reload setIsReloading={setIsReloading} activeTab={activeTab} />
         ) : (
           <div className="flex-1 min-h-0 overflow-y-auto overflow-clip">
-            {activeTab === "about" && <p>About</p>}
+            {activeTab === "about" && <About />}
           </div>
         )}
       </div>

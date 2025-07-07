@@ -8,12 +8,12 @@ const NavTab = ({ TabTitle, isActive, setActiveTab }) => {
   return (
     <>
       <button
-        className={`rounded-t-xl flex justify-between items-center w-34 px-2 py-1 mt-1 hover:bg-gray-200 hover:cursor-default ${
+        className={`rounded-t-xl flex justify-between items-center w-34 px-2 py-2 mt-1 hover:bg-gray-200 hover:cursor-default ${
           isActive ? "bg-white hover:bg-white" : ""
         }`}
         onClick={handleClick}
       >
-        <p className="text-xs">{TabTitle}</p>
+        <p className="text-sm">{TabTitle}</p>
         <IconX className="w-3 h-3" />
       </button>
       <div className="items-center justify-center flex py-1 mt-1">
