@@ -2,6 +2,7 @@ import NavBar from "./components/NavBar";
 import SearchBar from "./components/SearchBar";
 import Reload from "./components/Reload";
 import About from "./About";
+import Contact from "./Contact";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         ) : (
           <div className="flex-1 min-h-0 overflow-y-auto overflow-clip">
             {activeTab === "about" && <About />}
+            {activeTab === "contact" && <Contact />}
           </div>
         )}
       </div>

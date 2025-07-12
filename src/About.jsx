@@ -40,7 +40,7 @@ const About = () => {
           <p>
             <a
               href="https://www.credly.com/badges/ba849bfe-f7e0-4f9b-9a92-87067da28da4/public_url"
-              className="font-light text-blue-600 hover:text-blue-700"
+              className="font-light text-blue-600 hover:text-blue-700 hover:underline"
               target="_blank"
               rel="noopener noreferrer"
             >
