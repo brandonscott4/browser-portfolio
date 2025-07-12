@@ -1,3 +1,6 @@
+import TechnologyBadge from "./components/TechnologyBadge";
+import { technologies } from "./technologies";
+
 const About = () => {
   return (
     <div className="w-2/3 md:1/2 lg:w-1/3 mx-auto">
@@ -17,7 +20,7 @@ const About = () => {
           Certified Cloud Practitioner certification.
         </p>
       </div>
-      <div className="mb-12">
+      <div className="mb-14">
         <h2 className="text-gray-800 font-semibold mb-4">
           Education & Certifications
         </h2>
@@ -44,6 +47,21 @@ const About = () => {
               (Credly)
             </a>
           </p>
+        </div>
+      </div>
+      <div className="mb-12">
+        <h2 className="text-gray-800 font-semibold mb-4">
+          Skills/Technologies
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {technologies.map((technology) => (
+            <TechnologyBadge
+              key={technology.name}
+              iconSrc={technology.iconSrc}
+              name={technology.name}
+            />
+          ))}
         </div>
       </div>
     </div>
