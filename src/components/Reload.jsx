@@ -1,4 +1,4 @@
-import { IconLoader2 } from "@tabler/icons-react";
+import { TbLoader2 } from "react-icons/tb";
 
 const Reload = ({ setIsReloading }) => {
   setTimeout(() => {
@@ -7,7 +7,7 @@ const Reload = ({ setIsReloading }) => {
 
   return (
     <div className="flex items-center justify-center w-full h-full">
-      <IconLoader2 className="animate-spin stroke-gray-400 mb-14" />
+      <TbLoader2 className="animate-spin text-gray-400 mb-14 w-8 h-8" />
     </div>
   );
 };

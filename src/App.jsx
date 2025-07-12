@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-br from-sky-50 to-sky-100">
-      <div className="flex flex-col w-4/6 h-5/7 rounded-2xl border border-black bg-white shadow-lg overflow-hidden">
+      <div className="flex flex-col w-full mx-3 md:mx-0 md:w-4/6 h-5/7 rounded-2xl border border-black bg-white shadow-lg overflow-hidden">
         <NavBar activeTab={activeTab} setActiveTab={setActiveTab} />
         <SearchBar url={url} setIsReloading={setIsReloading} />
         {isReloading ? (

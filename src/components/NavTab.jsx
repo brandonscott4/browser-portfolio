@@ -1,4 +1,5 @@
-import { IconX, IconMinusVertical } from "@tabler/icons-react";
+import { RxCross2 } from "react-icons/rx";
+import { TbMinusVertical } from "react-icons/tb";
 
 const NavTab = ({ TabTitle, isActive, setActiveTab }) => {
   const handleClick = () => {
@@ -14,10 +15,10 @@ const NavTab = ({ TabTitle, isActive, setActiveTab }) => {
         onClick={handleClick}
       >
         <p className="text-sm">{TabTitle}</p>
-        <IconX className="w-3 h-3" />
+        <RxCross2 className="w-3.5 h-3.5 " />
       </button>
       <div className="items-center justify-center flex py-1 mt-1">
-        <IconMinusVertical className="w-4 h-4 stroke-gray-400" />
+        <TbMinusVertical className="text-gray-400" />
       </div>
     </>
   );
