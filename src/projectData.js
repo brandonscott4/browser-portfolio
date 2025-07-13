@@ -1,6 +1,6 @@
 export const projects = [
   {
-    img: "/yma-site.png",
+    img: "/browser-portfolio/yma-site.png",
     name: "Yates Martial Arts",
     desc: "A business site for the martial arts club which has helped them obtain new speculative interest through the contact form.",
     stack: ["React", "Tailwind"],
@@ -8,7 +8,7 @@ export const projects = [
     link: "https://www.yatesmartialarts.co.uk/",
   },
   {
-    img: "/conftwitterbot-site.png",
+    img: "/browser-portfolio/conftwitterbot-site.png",
     name: "Conf Twitter Bot",
     desc: "Final year university project that automated the promotion of academic research presented at conferences, through twitter. It simplified the process to search, filter and extract information from research papers and generate tweets based on these papers.",
     stack: [
@@ -25,7 +25,7 @@ export const projects = [
     demo: "https://drive.google.com/file/d/1WKvpMegNlIiQQKQoIHt4rEl4WzepjfCY/view",
   },
   {
-    img: "/pathfindingvis-app.png",
+    img: "/browser-portfolio/pathfindingvis-app.png",
     name: "Pathfinding Visualiser",
     desc: "The program allowed the user to add blocks to a grid and visualise pathfinding algorithms such as depth-first search, breadth-first search, dijkstra’s algorithm and A*. It provided an interactive opportunity to learn how these algorithms work for finding a path.",
     stack: ["Java"],
