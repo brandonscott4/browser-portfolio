@@ -1,6 +1,7 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { MdOndemandVideo } from "react-icons/md";
 
-const Project = ({ img, name, desc, stack, repo, link }) => {
+const Project = ({ img, name, desc, stack, repo, link, demo }) => {
   return (
     <div className="border border-gray-300 rounded-xl p-8 mb-12">
       <img src={img} alt="Project showcase" className="rounded-xl" />
@@ -17,6 +18,11 @@ const Project = ({ img, name, desc, stack, repo, link }) => {
           {link && (
             <a href={link} target="_blank" rel="noopener noreferrer">
               <FaExternalLinkAlt className="hover:text-gray-700" />
+            </a>
+          )}
+          {demo && (
+            <a href={demo} target="_blank" rel="noopener noreferrer">
+              <MdOndemandVideo className="hover:text-gray-700 h-5 w-5" />
             </a>
           )}
         </div>

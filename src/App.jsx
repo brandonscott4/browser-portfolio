@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 function App() {
   const [activeTab, setActiveTab] = useState("about");
   const [isReloading, setIsReloading] = useState(false);
-  const url = `http://localhost:5173/${activeTab}`;
+  const url = `https://brandonscott/${activeTab}`;
 
   //Stops reload if tab is switched
   useEffect(() => {

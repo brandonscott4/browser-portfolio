@@ -22,6 +22,7 @@ export const projects = [
       "Docker",
     ],
     repo: "https://github.com/jamesgeer/conf-twitter-bot",
+    demo: "https://drive.google.com/file/d/1WKvpMegNlIiQQKQoIHt4rEl4WzepjfCY/view",
   },
   {
     img: "/pathfindingvis-app.png",

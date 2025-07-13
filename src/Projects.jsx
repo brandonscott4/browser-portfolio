@@ -13,6 +13,7 @@ const Projects = () => {
           stack={project.stack}
           repo={project.repo}
           link={project.link}
+          demo={project.demo}
         />
       ))}
     </div>
